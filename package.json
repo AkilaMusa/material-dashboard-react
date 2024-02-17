@@ -1,6 +1,6 @@
 {
   "name": "material-dashboard-2-react",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "private": true,
   "author": "Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
+    "url": ""
   },
   "dependencies": {
     "@emotion/cache": "11.10.8",
