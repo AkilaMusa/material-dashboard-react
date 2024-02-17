@@ -1,29 +1,9 @@
-/**
-=========================================================
-* Material Dashboard 2 React - v2.2.0
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// @mui material components
 import Card from "@mui/material/Card";
-// import Divider from "@mui/material/Divider";
 import Icon from "@mui/material/Icon";
-
-// Material Dashboard 2 React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
-// import MDButton from "components/MDButton";
-
-// Billing page components
+// Billing page component
 import Transaction from "layouts/billing/components/Transaction";
 
 function Transactions() {
@@ -40,7 +20,7 @@ function Transactions() {
             </Icon>
           </MDBox>
           <MDTypography variant="button" color="text" fontWeight="regular">
-            23 - 30 March 2020
+            23 - 30 january 2024
           </MDTypography>
         </MDBox>
       </MDBox>
@@ -62,14 +42,14 @@ function Transactions() {
             color="error"
             icon="expand_more"
             name="Netflix"
-            description="27 March 2020, at 12:30 PM"
+            description="27 january 2024, at 12:30 PM"
             value="- $ 2,500"
           />
           <Transaction
             color="success"
             icon="expand_less"
-            name="Apple"
-            description="27 March 2020, at 04:30 AM"
+            name="Flopay"
+            description="27 january 2024, at 04:30 AM"
             value="+ $ 2,000"
           />
         </MDBox>
@@ -89,29 +69,29 @@ function Transactions() {
           <Transaction
             color="success"
             icon="expand_less"
-            name="Stripe"
-            description="26 March 2020, at 13:45 PM"
+            name="Apple"
+            description="16 Febuary 2024, at 13:45 PM"
             value="+ $ 750"
           />
           <Transaction
             color="success"
             icon="expand_less"
-            name="HubSpot"
-            description="26 March 2020, at 12:30 PM"
+            name="Flogeth"
+            description="26 febuary 2024, at 12:30 PM"
             value="+ $ 1,000"
           />
           <Transaction
             color="success"
             icon="expand_less"
-            name="Creative Tim"
-            description="26 March 2020, at 08:30 AM"
+            name="shiba-tech"
+            description="16 febuary 2024, at 08:30 AM"
             value="+ $ 2,500"
           />
           <Transaction
             color="dark"
             icon="priority_high"
-            name="Webflow"
-            description="26 March 2020, at 05:00 AM"
+            name="EL-roy Gass ltd"
+            description="26 febuary 2020, at 05:00 AM"
             value="Pending"
           />
         </MDBox>
